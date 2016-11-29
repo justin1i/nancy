@@ -1,39 +1,16 @@
-# Nancy module
 
-# Routing
+# 路由
 
-# Async
+# 模型绑定
 
-# DynamicDictionary
+# 依赖
 
-# The before and after module hooks
+# 视图
 
-# Model binding
+# cross-cutting concerns
 
-# Bootstrapper
+# Error hooks
 
-# View Engines
+# 授权
 
-# View locaiton conventions
-
-# Localization
-
-# Testing your application
-
-# The root path
-
-# Managing static content
-
-# The Applicaiton Before, After and OnError pipelines
-
-# Generating a custom error page
-
-# The cryptography helpers
-
-# Extending Serialization with Converters
-
-# Authentication
-
-# SSL Behind Proxy
-
-# Nancy and Validation
+# 异步处理器

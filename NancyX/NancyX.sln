@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyX.Application", "NancyX.Application\NancyX.Application.csproj", "{C21DABAF-FF1D-494F-B6E5-A4CD1793CE3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyX.AspNet", "NancyX.AspNet\NancyX.AspNet.csproj", "{4B5D3242-7141-4475-A477-A05376B7DF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyX.SelfHost", "NancyX.SelfHost\NancyX.SelfHost.csproj", "{D825F99C-3B55-4568-9DF3-0534C7B07BEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C21DABAF-FF1D-494F-B6E5-A4CD1793CE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21DABAF-FF1D-494F-B6E5-A4CD1793CE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21DABAF-FF1D-494F-B6E5-A4CD1793CE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21DABAF-FF1D-494F-B6E5-A4CD1793CE3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5D3242-7141-4475-A477-A05376B7DF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5D3242-7141-4475-A477-A05376B7DF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5D3242-7141-4475-A477-A05376B7DF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5D3242-7141-4475-A477-A05376B7DF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D825F99C-3B55-4568-9DF3-0534C7B07BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D825F99C-3B55-4568-9DF3-0534C7B07BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D825F99C-3B55-4568-9DF3-0534C7B07BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D825F99C-3B55-4568-9DF3-0534C7B07BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
