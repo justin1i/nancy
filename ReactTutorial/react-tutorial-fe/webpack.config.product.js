@@ -1,3 +1,8 @@
+var webpack = require('webpack');
+
+var env ={};
+env['process.env.NODE_ENV'] = JSON.stringify('production');
+
 module.exports = {
   entry: './src',
   output: {
@@ -14,5 +19,19 @@ module.exports = {
       include: __dirname,
       exclude: /node_modules/
     }]
+  },
+  plugins: [
+    new webpack.DefinePlugin(env),
+     new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    }),
+  ],
+  resolve: {
+    alias: {
+      "react": "react-lite",
+      "react-dom": "react-lite"
+    }
   },
 };
